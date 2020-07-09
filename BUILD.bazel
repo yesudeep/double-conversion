@@ -18,6 +18,7 @@ cc_library(
         "double-conversion/string-to-double.cc",
         "double-conversion/strtod.cc",
     ],
+    includes = ["."],
     hdrs = [
         "double-conversion/bignum.h",
         "double-conversion/bignum-dtoa.h",
